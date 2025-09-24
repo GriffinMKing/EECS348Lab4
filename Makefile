@@ -1,5 +1,5 @@
-main: main.c isOdd.c isOdd.h
-	gcc -o main main.c isOdd.c
+main: main.c isOdd.c isEven.c
+	gcc -o main main.c isOdd.c isEven.c
 
-make clean:
+clean:
 	rm -f main
